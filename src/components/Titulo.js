@@ -1,12 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles.css";
 
-class Titulo extends Component {
-  render() {
-    return (
-      <header id="titulo">React - Aviso se o usuário está logado</header>
-    );
-  }
+const Titulo = () => {
+  return (
+    <header className="header-titulo">React - Aviso se o usuário está logado</header>
+  );
 }
 
 export default Titulo;

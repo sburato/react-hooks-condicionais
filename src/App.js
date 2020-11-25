@@ -1,12 +1,13 @@
 import './styles.css';
+import Login from "./components/Login";
 import Titulo from "./components/Titulo";
 
-function App() {
+const App = () => {
   return (
     <div>
       <center>
         <Titulo />
-        <h1>Hello World!</h1>
+        <Login />
       </center>
     </div>
   );
